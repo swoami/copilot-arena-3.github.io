@@ -1,6 +1,6 @@
-## React + Vite Starter
+## PokéPlayground (React + Vite)
 
-Prosty template aplikacji React utworzony z konsoli przy użyciu Vite.
+Child‑friendly Pokémon explorer built with React + Vite using the public [PokeAPI](https://pokeapi.co/). Browse a growing list of Pokémon, search by name, and open a colorful detail page with stats, types and abilities.
 
 ### Wymagania
 - Node.js (>= 18)
@@ -43,10 +43,29 @@ public/ (opcjonalne zasoby statyczne)
 vite.config.js
 ```
 
-### Dalsze kroki
-- Dodaj routing (np. react-router-dom)
-- Konfiguruj linting (ESLint, Prettier)
-- Rozszerz stylowanie (CSS Modules / Tailwind)
+### Funkcje
+- Lista Pokémon (strona główna) z przyciskiem "Load More".
+- Wyszukiwanie po nazwie (pikachu, charizard, itp.).
+- Strona szczegółów z obrazkiem, typami, statystykami i zdolnościami.
+- Proste cachowanie zapytań w pamięci.
+- Kolorowy, przyjazny dla dzieci interfejs.
+
+### Dalsze kroki / Pomysły
+- Dodaj paginację lub infinite scroll zamiast przycisku.
+- Dodaj filtrowanie po typach.
+- Zaimplementuj testy (Jest + React Testing Library).
+- Dodaj ESLint / Prettier.
+- Dodaj deployment do GitHub Pages lub Netlify.
+- Zapisywanie ulubionych Pokémonów w localStorage.
+
+### API Zastosowanie
+- Lista: `GET https://pokeapi.co/api/v2/pokemon?limit=50&offset=0`
+- Detale: `GET https://pokeapi.co/api/v2/pokemon/{name}` np. `/pokemon/pikachu`
+
+### Skrypty
+- `npm run dev` – tryb deweloperski.
+- `npm run build` – produkcyjny build do `dist/`.
+- `npm run preview` – lokalny serwer podglądu buildu.
 
 ---
-Utworzono automatycznie przez GitHub Copilot (GPT-5). 
+Utworzono automatycznie przez GitHub Copilot (GPT-5).
