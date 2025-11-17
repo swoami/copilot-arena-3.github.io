@@ -1,6 +1,6 @@
 ## PokéPlayground (React + Vite)
 
-Child‑friendly Pokémon explorer built with React + Vite using the public [PokeAPI](https://pokeapi.co/). Browse a growing list of Pokémon, search by name, and open a colorful detail page with stats, types and abilities.
+Website with Child‑friendly Pokémon explorer built with React + Vite using the public [PokeAPI](https://pokeapi.co/). Browse a growing list of Pokémon, search by name, and open a colorful detail page with stats, types and abilities.
 
 ### Wymagania
 - Node.js (>= 18)
