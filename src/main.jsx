@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-	<BrowserRouter>
+	<BrowserRouter basename="/copilot-arena-3.github.io">
 		<App />
 	</BrowserRouter>
 );
